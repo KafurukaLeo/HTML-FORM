@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration login</title>
+    <style>
+        .container{
+         background-color: #00ffff;
+         margin-left: 100px;
+         margin-right: 100px;
+         border-radius: 20px;
+        }
+        form{
+            border: 3px solid;
+        }
+        button:hover{
+            opacity: 0.7;
+            background: blueviolet;
+            border-radius: 22px;
+        }
+        input[tyep="text"] :focus{
+            border-radius: 20px;
+            background-color:#daa520 ;
+            outline: none;
+        }
+        div{
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <center>
+    <br>
+    <br>
+    <form>
+
+        <label>Firstname</label>
+        <input type="text" name="Firstname" size="15" /> <br> <br>
+
+        <label>Middlename</label>
+        <input type="text" name="Middlename" size="15" /> <br> <br>
+
+        <label>lastname</label>
+        <input type="text" name="lastname" size="15" /> <br> <br>
+        <label>
+            Course:
+        </label>
+        <select>
+            <option value="course">Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MBA">BBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.Tech">M.Tech</option>
+        </select>
+            <br>
+            <br>
+            <label>
+                Gender:
+            </label>
+            <input type="radio" name="Male"/> Male <br>
+            <input type="radio" name="Female"/> Female <br>
+               <br>
+               <tr>
+                   <td>
+                        Date of birth:
+                    </td>
+               </tr>
+               <tr>
+                   <td>
+                       <input type="Date">
+                   </td>
+               </tr>
+               <br><br>
+        
+            <label>
+                Phone:
+            </label>
+            <input type="text" name="Country code" value="+25" size="2" />
+            <input type="text" name="Phone" size="10"/> <br>
+            Address
+            <br>
+             <textarea cols="40" rows="5" value="address"></textarea>
+             <br><br>
+              <label>Fathername</label>
+        <input type="text" name="Fathername" size="15" /> <br> <br>
+
+        <label>Mothername</label>
+        <input type="text" name="Mothername" size="15" /> <br> <br>
+
+             Email:
+             <input type="email" id="email" name="email" /> <br>
+             <br>
+             Password:
+             <input type="password" id="pass" name="pass" /> <br>
+             <br>
+             Re-type password:
+             <input type="password" id="repass" name="repass"> <br> <br>
+             <input type="button" value="Submit" />
+        </div>
+            </center>
+              
+    </form>
+    
+</body>
+</html>
